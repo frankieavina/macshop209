@@ -25,6 +25,7 @@ function Login() {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    alert("Thank you! You are now logged in.")
     navigate('/');
   };
 
@@ -35,7 +36,7 @@ function Login() {
         <form onSubmit={ handleSubmit }>
                 <input type="email" name='' placeholder='Enter Email ...' value={email} required onChange={handleEmailChange} /><br />
                 <input type="password" placeholder='Enter Password ...' value={password} required onChange={handlePasswordChange} /><br />
-                <button type="submit" className='btn' >Login</button>
+                <button type="submit" className='btn'>Login</button>
                 <p>or login with</p>
                 <div className='icons'>
                     <div className='icon'>

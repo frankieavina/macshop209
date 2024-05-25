@@ -8,7 +8,7 @@ position: fixed;
 top: 0;
 width:100%;
   align-items: center;
-  background-color: #2dbeeb;
+  background-color:  rgb(235,235,235);
   color: #fefefe;
   display: flex;
   justify-content: space-between;
