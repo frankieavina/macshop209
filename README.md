@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## **NOTE:** If you are a BVT TA grading please note that my html and css are in src folder->pages folder. My html is in the Login.tsx file and my css is in my login.css file. 
+
 ## Available Scripts
 
 In the project directory, you can run:
