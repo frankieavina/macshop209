@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url('/public/pexels-jill-wellington-1638660-3776942.jpg');
+}
+
 .login-page{
     width: 350px; 
     height: 450px;
@@ -20,6 +24,7 @@
     align-items: center;
     flex-direction: column;
     transition: all .4s;
+    border-radius: 25px;
 }
 
 .login-page:hover{
