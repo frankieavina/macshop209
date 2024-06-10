@@ -8,6 +8,7 @@
 
 body {
     background-image: url('/public/pexels-jill-wellington-1638660-3776942.jpg');
+    background-size: 100%;
 }
 
 .login-page{
@@ -52,6 +53,11 @@ body {
     padding-left: 10px;
     outline: none;
     transition: all .4s;
+    
+}
+
+.input{
+    border-radius: 25px;
 }
 
 .login-page form input:focus{
@@ -68,6 +74,7 @@ body {
     outline: none;
     cursor: pointer;
     transition: all .4s;
+    border-radius: 25px;
 }
 
 .login-page form .btn:hover{
